@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Notícias boas sobre Covid-19</title>
+</head>
+<body>
+    <!--Imagem topo-->
+    <div class="imagem-topo">
+        <label id="texto">Começamos a virar o jogo! <b style="color: #003e9b8f;">Cuide-se<br><img src="imagens/logo.png" id="logo-capa"></b></label>
+        <a href="#logo-menu"><img src="imagens/seta.gif" id="seta-baixo"></a>
+    </div>
+    <!--Menu-->
+    <div class="menu">
+        <img src="Imagens/logo.png" id="logo-menu">
+        <div id="menuLink"><a id="emDestaque" href="index.html">Home</a></div>
+        <div id="menuLink"><a href="sobre.html">Sobre</a></div>
+        <div id="menuLink"><a href="contato.html">Contato</a></div>
+        <div id="menuLink"><a href="saiba-mais.html">Saiba mais</a></div>
+    </div>
+    <!--Conteúdo-->
+    <div id="conteudo">
+        <h1 id="tituloPrincipal">Com avanço da vacinação, mortes por Covid no Brasil caem 77% desde junho</h1>
+        <div id="noticiaPrincipal">
+            <video id="video-01" width="640" height="480" controls>
+                <source src="imagens/video-01.mp4" type="video/mp4">
+                Pedimos desculpas mas o vídeo não é suportado pelo seu navegador, se possível pedimos que tente acessar em outro navegador.
+            </video>
+            <div id="textoPrincipal">
+                <p>No dia 13 de junho, o Brasil registrou 1.999 mortes na média móvel de sete dias. Nesta segunda-feira (13), a média móvel ficou em 465 óbitos.</p>  
+                <p>Com o avanço da vacinação no Brasil, as mortes por Covid caíram mais de 70% desde junho.</p> 
+                <p>A Covid bateu duas vezes na porta da professora Elis Monteiro. A primeira vítima foi o marido, que ficou 14 dias isolado no quarto. Meses depois, ela e o filho, Guilherme, também ficaram doentes. Elis já tinha tomado a primeira dose da vacina e escapou da internação.</p>
+                <p>“A primeira coisa que a médica me disse: ‘Elis, fica muito tranquila porque você tomou a primeira dose da vacina. Porque com a primeira dose, você já tem proteção infinitamente maior do que as pessoas que não tomaram a primeira dose’”, conta.</p>
+                <a href="noticia-01.html">Continar lendo</a>
+            </div>
+        </div>
+        <h2 id="tituloNoticia-secundaria">Principais notícias do dia:</h2>
+        <hr>
+        <div id="noticiaSecundaria">
+            <div id="noticia-secundaria">
+                <a href="noticia-02.html"><img src="imagens/capa-01.jpg" id="capaNoticia-segundaria01"></a>
+                <a href="noticia-02.html"><h1 id="tituloSecundario">Profissionais de saúde comemoram UTIs para Covid-19 vazias de hospital no RN: ‘Viva a vacina’</h1></a>
+            </div>
+            <div id="noticia-secundaria">
+                <a href="noticia-03.html"><img src="imagens/capa-02.jpg" id="capaNoticia-segundaria02">
+                <a href="noticia-03.html"><h1 id="tituloSecundario">Brasil é 5º país que mais aplicou doses entre países do G20; veja atualização</h1></a>
+            </div> 
+            <div id="noticia-secundaria">
+                <a href="noticia-04.html"><img src="imagens/capa-03.jpg" id="capaNoticia-segundaria03"></a>
+                <a href="noticia-04.html"><h1 id="tituloSecundario">100 empresas que fizeram as maiores doações no Brasil</h1></a>
+            </div>
+        </div>
+        <h2 id="tituloMais-noticias">Mais notícias:</h2>
+        <hr>
+        <div id="noticiaMais">
+            <iframe width="699" height="393" src="https://www.youtube.com/embed/YEpOBrgHlHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="capaNoticia-mais"></iframe>
+            <div id="textoMais">
+                <h1 id="tituloMais">Veja casos de idosos e doentes crônicos que se recuperaram da covid-19</h1>
+                <p>No estado do Rio de Janeiro, o total de casos de Covid-19 está em 77.784, 7.417 mortos e 61.690 recuperados. Na capital, muito movimento no calçadão da praia no feriado prolongado, além de muitas pessoas sem máscara nas ruas.</p>
+                <input type="button" value="Assistir" id="botaoMidia">
+                <a href="https://youtu.be/YEpOBrgHlHI" target="_blanck"><input type="button" value="Fonte oficial" id="oficial"></a>
+            </div>
+            <div id="modalNoticia" class="modal">      
+                <div class="modal-container">
+                    <span id="fecharMidia">&times;</span>
+                        <video id="midiaNoticia" width="100%" controls>
+                            <source src="imagens/video-04.mp4" type="video/mp4">
+                            Pedimos desculpas mas o vídeo não é suportado pelo seu navegador, se possível pedimos que tente acessar em outro navegador.
+                        </video>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="noticiaMais">
+            <a href="noticia-05.html"><img src="imagens/capa-05.jpg" id="capaNoticia-mais"></a>
+            <div id="textoMais">
+                <h1 id="tituloMais">Fiocruz registra queda na mortalidade por covid-19 no Brasil</h1>
+                <p>Diante do avanço da vacinação, pesquisadores da Fiocruz registraram queda no índice de mortalidade por covid-19, no Brasil. O boletim epidemiológico que vai até o fim de julho mostra uma redução em...</a></p>
+                <a href="noticia-05.html"><input type="button" value="Continar lendo"></a>
+            </div>
+        </div> 
+        <audio controls>
+            <source src="imagens/audio-01.mp3" type="audio/mp3">
+            Pedimos desculpas mas o áudio não é suportado pelo seu navegador, se possível pedimos que tente acessar em outro navegador.
+        </audio>
+        <hr>
+        <script>
+            var botao = document.getElementById("botaoMidia");
+            var modal = document.getElementById("modalNoticia");
+            var fechar = document.getElementById("fecharMidia");
+            var midia = document.getElementById("midiaNoticia");
+            botao.onclick = function() {
+                modal.style.display = "block";
+                midia.play(); 
+            }
+            fechar.onclick = function() {
+                modal.style.display = "none";
+                midia.pause();
+            }            
+            window.onclick = function(event) {
+                if (event.target == modal) {                
+                modal.style.display = "none";
+                midia.pause();
+            }}
+            function ocultar() {
+            document.getElementById("Pop-upModal").style.display = "none";
+        }
+        </script>
+        </div>
+    </div>
+    <!--Rodapé-->
+    <footer>
+        <div class="rodape">
+            <div id="equipe">
+                <h3>Equipe:</h3>
+                <a href="sobre.html#ivanildo"><p>Ivanildo Dias Rocha</p></a>
+                <a href="sobre.html#flavia"><p>Flavia Rosa de Jesus</p></a>
+                <a href="sobre.html#ciro"><p>Ciro Franco</p></a>
+                <a href="sobre.html#haroldo"><p>Haroldo Mendes Rodrigues</p></a>
+                <a href="sobre.html#marcos"><p>Marcos Ramos dos Santos</p></a>
+            </div>
+            <div id="paginas">
+                <h3>Páginas:</h3>
+                <a href="index.html"><p>Home</p></a>
+                <a href="sobre.html"><p>Sobre</p></a>
+                <a href="contato.html"><p>Contato</p></a>
+                <a href="saiba-mais.html"><p>Saiba mais</p></a>
+            </div>
+            <div id="apoiadores">
+                <h3>Apoiadores:</h3>
+                <a href="https://www.itau.com.br/" target="_blank"><p>Itaú-Unibanco</p></a>
+                <a href="https://www.gama.academy/?utm_source=google&utm_medium=compramidia&utm_campaign=institucional-brand&gclid=Cj0KCQjwnJaKBhDgARIsAHmvz6dQwkgczur2YTOzf7NcU03TIj0Lre24vQtDmJZ8RHhAiu9Qcqh2h6waApkjEALw_wcB" target="_blank"><p>Gama Academy</p></a>
+            </div>
+            <div id="logoSite">
+                <a href="index.html"><img src="Imagens/logo.png" id="logo-rodape"></a>
+                <div class="redes-sociais">
+                    <div id="social">
+                        <a href="https://github.com/Ivanildo-Dias" target="_blank"><img src="Imagens/gitHub.png" id="gitHub"></a>
+                        <p id="nome">Ivanildo</p>
+                    </div>
+                    <div id="social">
+                        <a href="https://github.com/flaveeenha" target="_blank"><img src="Imagens/gitHub.png" id="gitHub"></a>
+                        <p id="nome"p>Flavia</p>
+                    </div>
+                    <div id="social">
+                        <a href="https://github.com/Ciro-Franco" target="_blank"><img src="Imagens/gitHub.png" id="gitHub"></a>
+                        <p id="nome">Ciro</p>
+                    </div>
+                    <div id="social">
+                        <a href="https://github.com/Haroldomrod" target="_blank"><img src="Imagens/gitHub.png" id="gitHub"></a>
+                        <p id="nome">Haroldo</p>
+                    </div>
+                    <div id="social">
+                        <a href="https://github.com/Marcosrates" target="_blank"><img src="Imagens/gitHub.png" id="gitHub"></a>
+                        <p id="nome">Marcos</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div id="descricaoProjeto">Projeto - Itaú Tech 2021 - 04ª Edição (Grupo 23)</div>
+        </div>
+    </footer>
+    <div id="Pop-upModal" class="Pop-upModal-container">
+        <div id="Pop-up">
+            <a href="#" onClick="ocultar()"><button id="fecharPop-up">X</button></a>
+            <h3>Para uma melhor experiência recomendamos<br>a resolução de tela de: <br><img src="imagens/pc.png"><br><strong>1280 x 720</strong></h3>
+        </div>  
+</body>
+</html>
